@@ -55,6 +55,7 @@ First, let's make a folder of our training data. Both sections below (ImageMagic
 Now you're ready to begin using the code!
 1. Create a new folder in which you want to contain your projects.
 2. Download all ```.ipynb``` files and paste them into the folder.
+3. If you're starting a new project, begin with ```deeplabcut_project_creation_and_training.ipynb``` and follow the instructions in the notebook
 
 ## Using the napari labeler
 If they didn't open automatically, open your config as a file and your folder of interest as a folder. You should then have 1 layer of collected data and one layer of images.
