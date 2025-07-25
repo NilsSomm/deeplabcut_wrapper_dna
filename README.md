@@ -8,7 +8,7 @@ Also, this is only if your machine has an Nvidia gpu. If it prompts you that no 
 <https://pytorch.org/get-started/locally/>
 
 The “start locally” command is important at the beginning after you installed Cuda.
-
+![showing the command to run on the pytorch "get started" page](https://github.com/nilssomm/deeplabcut_wrapper_dna/pytorch_command.png)
 You’ll want to confirm that cuda and pytorch are connected. Run something like the code below in python:
 ```
 import torch
