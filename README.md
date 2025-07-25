@@ -7,8 +7,10 @@ Also, this is only if your machine has an Nvidia gpu. If it prompts you that no 
 ## Install pytorch 
 <https://pytorch.org/get-started/locally/>
 
-The “start locally” command is important at the beginning after you installed Cuda.
-![showing the command to run on the pytorch "get started" page](https://github.com/nilssomm/deeplabcut_wrapper_dna/pytorch_command.png)
+The “start locally” command is important after you've installed Cuda.
+
+![showing the command to run on the pytorch "get started" page](pytorch_command.png)
+
 You’ll want to confirm that cuda and pytorch are connected. Run something like the code below in python:
 ```
 import torch
@@ -49,6 +51,6 @@ First, let's make a folder of our training data. Both sections below (ImageMagic
 7. Press “Rename” at the bottom right and press OK.
 8. Your files should now be renamed with an appropriate suffix.
 
-Checks/Troubleshooting
-Try running the check if cuda is available in your DEEPLABCUT environment as well
-When you are training the network, check your gpu in task manager, and see if its memory is being used.
+## Checks/Troubleshooting
+* Try running the check if cuda is available in your DEEPLABCUT environment as well
+* When you are training the network, check your gpu in task manager, and see if its memory is being used.
