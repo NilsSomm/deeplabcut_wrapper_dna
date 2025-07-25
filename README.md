@@ -51,6 +51,16 @@ First, let's make a folder of our training data. Both sections below (ImageMagic
 7. Press “Rename” at the bottom right and press OK.
 8. Your files should now be renamed with an appropriate suffix.
 
+## Using deeplabcut
+Now you're ready to begin using the code!
+1. Create a new folder in which you want to contain your projects.
+2. Download all ```.ipynb``` files and paste them into the folder.
+
+## Using the napari labeler
+If they didn't open automatically, open your config as a file and your folder of interest as a folder. You should then have 1 layer of collected data and one layer of images.
+
+To label, select the collected data layer, and under layer controls at the very top you can select whether you want to create, delete, or move points. On the right you should be able to see your bodyparts you selected. You can also change your point size, and checking the display text checkbox will write the name of your bodyparts over their respective points, which can be useful for double checking things. You can also use the right and left arrows to change between images, which helps when labeling a lot of data. When you are done labeling, press ctrl+s while the collected data layer is selected, then a ```.csv``` and ```.h5``` file should be created in the directory of the data you were labeling.
+
 ## Checks/Troubleshooting
 * Try running the check if cuda is available in your DEEPLABCUT environment as well
 * When you are training the network, check your gpu in task manager, and see if its memory is being used.
