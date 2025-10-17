@@ -1,4 +1,5 @@
 # deeplabcut_wrapper_dna
+Python version 3.7.9 was used for this
 ## Install Cuda (technically optional, but training will be slow otherwise) 
 <https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html>
 
